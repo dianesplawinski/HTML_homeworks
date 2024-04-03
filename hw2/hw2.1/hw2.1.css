@@ -1,0 +1,33 @@
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    font-size: 24px;
+}
+#rubik-pixels {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+}
+#sedgwick-ave {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+}
+#dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+}
+#fjalla-one {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+}
+#indie-flower {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+}
