@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+* {
+    margin: 0;
+    font-family: "KoHo", sans-serif;
+}
+
+/* ----------------------------------------- SECTION 1 CONTAINERS -------------------------------------------*/
+
+.bg-img-s {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: url("images/bg-1.png");
+    background-size: cover;
+}
+
+.card-l {
+    display: flex;
+    background: #FAF9F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-l .text_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+}
+
+.bg-img-l {
+    height: 200vh;
+    background: url("images/bg-2.png");
+    background-size: cover;
+}
+
+/* ----------------------------------------- SECTION 2 CONTAINERS -------------------------------------------*/
+.video_wrap {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video_wrap .text_container {
+    width: 60%;
+}
+
+iframe {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+/* ----------------------------------------- SECTION 3 CONTAINERS -------------------------------------------*/
+.cards-s {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-s {
+    background: rgba(83, 83, 83, 0.40);
+    width: 30%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------------ SECTION 1 ELEMENTS --------------------------------------- */
+.card-l .text_container > * {
+    margin: 1.5rem;
+}
+
+.card-l .text_container h1 {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-l .text_container p {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-l .text_container button {
+    width: 80%;
+    height: 20%;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    opacity: 1;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-l .text_container button:hover {
+    transition: 500ms ease-in-out;
+    background: rgba(217, 217, 217, 1);
+    cursor: pointer;
+}
+
+/*----------------------------------- SECTIONS TWO ELEMENTS -------------------------------*/
+.video_wrap .text_container p {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*----------------------------------- SECTIONS THREE ELEMENTS -------------------------------*/
+.card-s > * {
+    margin: 0.75rem;
+}
+
+.card-s img {
+    width: 95%;
+}
+
+.cards-s h3 {
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards-s p {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards-s button {
+    width: 90%;
+    height: 10%;
+    color: #6B6666;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cards-s button:hover {
+    transition: 500ms ease-in-out;
+    background: rgba(217, 217, 217, 1);
+    cursor: pointer;
+}
+

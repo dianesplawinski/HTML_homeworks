@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+/*============================================ CONTAINERS ============================================== */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin: 1em 28em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin: 1em 25.5em;
+    padding: 1.5em 3em;
+    font-size: 1.1em;
+    font-weight: 900;
+
+}
+
+.fb-login-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 1.25em;
+    font-weight: 900;
+    color: #0f61a1;
+    cursor: pointer;
+}
+
+/*=============================================== ELEMENTS ===========================================*/
+
+main img {
+    width: 22vw;
+    margin: 2em;
+}
+
+.fb-login-wrap img {
+    width: 2vw;
+    margin: 0.25em;
+    cursor: pointer;
+}
+
+button {
+    width: 70%;
+    height: 2.5em;
+    margin: 0.75em;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    font-size: 1.25em;
+    font-weight: 600;
+    background: #0b8bec;
+    color: #e8e8e8;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 500ms ease-in-out;
+    background: #0b6cb7;
+}
+
+main span {
+    margin: 0.5em;
+    color: #656565;
+    font-size: 1.25em;
+    font-weight: 900;
+}
+
+.renew_password {
+    margin: 1em;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #034e86;
+    cursor: pointer;
+}
+
+footer span {
+    color: #3b93d9;
+    cursor: pointer;
+}
+
+/*============================================= INPUT FIELDS ===================================*/
+
+input {
+    width: 70%;
+    height: 2em;
+    margin: 0.25em;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    font-size: 1.25em;
+    font-weight: 500;
+    background: #e0dfdf;
+    color: #383838;
+}
