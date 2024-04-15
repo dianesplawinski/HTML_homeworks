@@ -1,0 +1,56 @@
+@media screen and (min-width: 427px) and (max-width: 1023px) {
+    nav {
+        display: flex;
+        margin: 0.25rem auto;
+        width: 96%;
+    }
+
+    nav > * {
+        margin: 0.1rem;
+    }
+
+    section.banner {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.banner span {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 1rem;
+        margin: 0.25rem auto;
+        width: 96%;
+        height: 60vh;
+    }
+
+    main {
+        display: flex;
+        width: 96%;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0.25rem auto;
+    }
+
+    article {
+        width: 24%;
+    }
+
+    article span {
+        display: flex;
+        height: 60vh;
+        margin: 0.5rem auto;
+        writing-mode: vertical-rl;
+        justify-content: flex-start;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    footer span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4vh;
+        width: 96%;
+        margin: 0.5rem auto;
+    }
+}

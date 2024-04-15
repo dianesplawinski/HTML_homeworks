@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+span {
+    width: 100%;
+    background: #3b93d9;
+    color: white;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+@media screen and (max-width: 426px) {
+    body, nav, main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    body {
+        margin: 1rem;
+    }
+
+    body > *, main > * {
+        margin: 0.2rem;
+        width: 100%;
+    }
+
+    nav > * {
+        margin: 0.1rem 0;
+        width: 100%;
+    }
+
+
+    a > *, footer > * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6vh;
+    }
+
+    .banner > * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
+
+    article > * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 17vh;
+    }
+
+}

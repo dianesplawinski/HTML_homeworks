@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        @media screen and (max-width: 1023px) {
+            body {
+                grid-template-areas:
+                    "a a a"
+                    "b b b"
+                    "c d e"
+                    "f f f";
+                grid-template-rows: 1fr 3fr 1fr 1fr;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            body {
+                grid-template-areas:
+                    "a a a a"
+                    "b b b f"
+                    "c d e f";
+            }
+        }
+
+        body {
+            display: grid;
+            grid-gap: 1rem;
+            box-sizing: border-box;
+            height: 95vh;
+            padding: 0.25rem;
+            border: 1px grey solid;
+            border-radius: 15px;
+
+
+        }
+
+        div {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: lightgrey;
+            border: 1px grey solid;
+            border-radius: 15px;
+            text-transform: capitalize;
+            color: darkgrey;
+            font-size: 6rem;
+        }
+
+        .a {
+            grid-area: a;
+        }
+
+        .b {
+            grid-area: b;
+        }
+
+        .c {
+            grid-area: c;
+        }
+
+        .d {
+            grid-area: d;
+        }
+
+        .e {
+            grid-area: e;
+        }
+
+        .f {
+            grid-area: f;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<div class="a"><span>a</span></div>
+<div class="b"><span>b</span></div>
+<div class="c"><span>c</span></div>
+<div class="d"><span>d</span></div>
+<div class="e"><span>e</span></div>
+<div class="f"><span>f</span></div>
+</body>
+</html>
